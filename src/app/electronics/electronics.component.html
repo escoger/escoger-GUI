@@ -1,0 +1,7 @@
+<ul class="electronics">
+  <li *ngFor="let electronic of electronics">
+  <a routerLink="/detail/{{electronic.id}}">
+    <span class="badge">{{electronic.id}}</span> {{electronic.name}}
+    </a>
+  </li>
+</ul>
